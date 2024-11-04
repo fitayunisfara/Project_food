@@ -13,7 +13,7 @@ class ButtonState extends State<BottomNav> {
   int _selectedIndex = 0;
   static const List<Widget> _widgetOptions = <Widget>[
     MyHomePage(title: 'Daftar Makanan'),
-    MyProfilePage(),
+    Profile(),
   ];
 
   void _onTapped(int index) {
